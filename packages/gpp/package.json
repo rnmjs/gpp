@@ -7,6 +7,9 @@
     "url": "git+https://github.com/rnmjs/gpp.git"
   },
   "type": "module",
+  "bin": {
+    "gpp": "dist/main.cli.js"
+  },
   "files": [
     "dist"
   ],
