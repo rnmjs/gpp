@@ -1,0 +1,24 @@
+{
+  "name": "@rnm/gpp",
+  "version": "0.0.0",
+  "description": "git pull && git push",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnmjs/gpp.git"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tscx --include src --exclude '**/*.test.ts'",
+    "test": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@rnm/tscx": "0.3.10",
+    "@types/node": "20.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

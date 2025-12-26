@@ -1,2 +1,1 @@
-# gpp
-git pull &amp;&amp; git push
+packages/gpp/README.md
